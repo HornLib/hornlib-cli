@@ -1,0 +1,48 @@
+{
+  "name": "hornlib-cli",
+  "version": "1.0.3",
+  "description": "Official CLI & MCP client for HornLib (hornlib.com): look up French Horn F/Bb double horn valve fingerings (C1-F6), transpose orchestral horn keys, and analyze overtone harmonic series from your terminal.",
+  "homepage": "https://hornlib.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HornLib/hornlib-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HornLib/hornlib-cli/issues",
+    "email": "admin@hornlib.com"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://hornlib.com"
+  },
+  "license": "MIT",
+  "author": "HornLib <admin@hornlib.com> (https://hornlib.com)",
+  "type": "module",
+  "bin": {
+    "hornlib": "./bin/hornlib.mjs",
+    "hornlib-cli": "./bin/hornlib.mjs"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "french-horn",
+    "fingering-chart",
+    "hornlib",
+    "music-theory",
+    "brass",
+    "transposition",
+    "harmonic-series",
+    "orchestral-excerpts",
+    "mcp",
+    "cli",
+    "claude",
+    "cursor",
+    "openclaw"
+  ]
+}
